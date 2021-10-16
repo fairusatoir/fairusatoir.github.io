@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" data-color-mode="dark" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Tab Icon -->
+    <link rel="icon" href="https://img.icons8.com/color/96/000000/code.png" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+    <title>Hello World!</title>
+  </head>
+
+  <body id="onTop">
+    <!-- Static navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/"
+          ><i class="navicon fas fa-code"><span>Dev</span></i></a
+        >
+      </div>
+    </nav>
+    <!-- End of static navbar -->
+
+    <!-- Go top button -->
+    <div class="row">
+      <div class="col">
+        <a
+          class="
+            goTop
+            btn btn-secondary
+            fixed-bottom
+            mr-3
+            mb-3
+            ml-auto
+            border-0
+            d-none
+          "
+          href="#onTop"
+          style="width: 50px; height: 50px"
+        >
+          <i class="fas fa-chevron-up h4 pt-2"></i>
+        </a>
+      </div>
+    </div>
+    <!-- End of go top button -->
+
+    <!-- Jumbotron section -->
+    <div class="page-one">
+      <div id="jumbotron" class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-md-4 offset-lg-1 text-center">
+            <img
+              class="jumbotronImg shadow-lg bg-white"
+              height="380"
+              src="img/img.jpg"
+              alt="Your Photo"
+            />
+          </div>
+
+          <div class="col-md-6 offset-lg-1 jumbotronTitle">
+            <small style="display: block" class="mb-0">Hello World,</small>
+            <div class="row title-name">
+              <h1 class="col-md-2" style="display: inline" class="who-am-i">
+                I'm,
+              </h1>
+              <h1 class="col-md-6" style="display: inline">
+                <span class="typed"></span>
+              </h1>
+            </div>
+            <!-- <p class="mb-2 font-weight-lighter">[Your Job Here]</p> -->
+            <br />
+            <div class="contact-icon">
+              <a
+                href="https://www.linkedin.com/in/fairusatoir/"
+                class="h4 mx-1 text-secondary"
+                title="LinkedIn"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+
+              <a
+                href="https://github.com/fairusatoir"
+                class="h4 mx-1 text-secondary"
+                title="Github"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+
+              <a
+                href="https://twitter.com/zuhairatoir"
+                class="h4 mx-1 text-secondary"
+                title="Instagram"
+                target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+            <a
+              href="https://t.me/atoir/"
+              target="_blank"
+              class="btn btn-dark nav-item mt-4"
+              >Send Message by Telegram</a
+            >
+            <div class="experience mt-lg-4 mt-3"># Programming Experience</div>
+            <span class="experience-icon">
+              <span
+                ><img
+                  src="https://img.icons8.com/ios/40/ffffff/java-coffee-cup-logo--v1.png"
+                  alt="Java"
+              /></span>
+              <span
+                ><img
+                  src="https://img.icons8.com/glyph-neue/50/ffffff/php.png"
+                  alt="PHP"
+              /></span>
+              <span
+                ><img
+                  src="https://img.icons8.com/ios-filled/50/ffffff/mysql-logo.png"
+                  alt="Mysql"
+              /></span>
+              <span
+                ><img
+                  src="https://img.icons8.com/ios-filled/40/ffffff/python.png"
+                  alt="Python"
+              /></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of jumbotron section -->
+
+    <footer>
+      <div class="container mb-1">
+        <div class="text text-center" style="z-index: 2">
+          Built By<a
+            href="http://instagram.com/zuhairatoir"
+            target="_blank"
+            style="margin-left: 5px"
+            >Fairus Atoir</a
+          >
+          &copy; Copyright 2021
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/jquery/jquery.easing.1.3.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.statically.io/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script>
+      var typed = new Typed(".typed", {
+        strings: ["Fairus Atoir", "Programmer"],
+        typeSpeed: 150,
+        loop: true,
+        backDelay: 900,
+        backSpeed: 30,
+      });
+    </script>
+
+    <!-- My own script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
